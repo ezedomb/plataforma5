@@ -1,0 +1,55 @@
+.empire {
+    background-color: red;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+}
+.rway {
+    background-color: blue;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#blacky {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+}
+#luke {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+}
+.soldier {
+    border-style: dashed;
+    border-color: black;
+    letter-spacing:15px;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.support {
+    text-align: center;
+    font-size: 30px;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ship {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imagines {
+    width: 70%;
+    text-align: center;
+}
+#nofake {
+    font-style: italic;
+}
+#vader {
+    font-weight: bold;
+}
+#Luke {
+    font-weight: bolder;
+}
