@@ -3,75 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Framework CSS Bootstap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>D-blog</title>
 
-    <!-- Me acorde de incluir los scripts (sin esto no me andaba el menu "hamburguesa") -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-
-    <title>My first P5 project</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #4CAF50;
+          color: white;
+        }
+        </style>
 </head>
 <body>
-    <!-- Esto saque de getbootstrap.com -->
 
-    <div class="container px-4">
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar con Bootstrap</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">About us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="aboutus.html">About</a>
+      </div>
+      
+      <div style="padding-left:16px">
+        <h2>D-blog</h2>
+        <a href="https://www.google.com/search?safe=off&sxsrf=ALeKk01rswQap9LEu_ymCynTsOwTyTJcUQ:1608086596174&source=univ&tbm=isch&q=doge+meme+2020"> <img src="https://i2.wp.com/i.pinimg.com/originals/11/27/c7/1127c7b1a077d0def637ae9f07bb998b.png" alt="Doge Meme" style="margin: 5%;"></a>
 
-    </div>
+        <p>Doge is an Internet meme that became popular in 2013. The meme typically consists of a picture of a <a href="https://en.wikipedia.org/wiki/Shiba_Inu">Shiba Inu dog</a> accompanied by multicolored text in <a href="https://en.wikipedia.org/wiki/Comic_Sans">Comic Sans font</a> in the foreground. The text, representing a kind of internal monologue, is deliberately written in a form of broken English.</p>
+      </div>
     
-
-        <br>
-        <div class="container max-width:100%">
-        
-        <h1>D-blog</h1>
-
-        <!-- Image coloking first attempt-->
-
-        <div class="position-relative" >
-            <a href="https://www.google.com/search?safe=off&sxsrf=ALeKk01rswQap9LEu_ymCynTsOwTyTJcUQ:1608086596174&source=univ&tbm=isch&q=doge+meme+2020"><img class="mr-3" src="https://i2.wp.com/i.pinimg.com/originals/11/27/c7/1127c7b1a077d0def637ae9f07bb998b.png" alt="Doge Meme" style="margin: 5%;"></a>
-            <div class="media-body">
-              <h5>Media heading</h5>
-              Doge is an Internet meme that became popular in 2013. The meme typically consists of a picture of a <a href="https://en.wikipedia.org/wiki/Shiba_Inu">Shiba Inu dog</a> accompanied by multicolored text in <a href="https://en.wikipedia.org/wiki/Comic_Sans">Comic Sans font</a> in the foreground. The text, representing a kind of internal monologue, is deliberately written in a form of broken English.
-            </div>
-          </div>
-    
-        <h4><a style="margin-left: 20%;">informacion</a></h4>
-
-        <!-- change font background color-->
-        <h5><a style="background-color: violet; margin-left: 22%; font-family: 'Josefin Sans', sans-serif;
-          font-family: 'Open Sans', sans-serif;">info</a> </h5>
-        <h6><a href="http://www.soyhenry.com">¿Qué onda Henry? Sirve?</a></h6>
-    </div>
-
-   
-
-</div> 
-    
-
-
-
 </body>
 </html>

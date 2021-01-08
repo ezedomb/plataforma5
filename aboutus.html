@@ -3,134 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Framework CSS Bootstap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
-    <!-- Me acorde de incluir los scripts (sin esto no me andaba el menu "hamburguesa") -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <title>D-blog - About Us</title>
 
-    <title>About us</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- Usando id para css local en la pagina-->
-    
     <style>
-      .answers
-              {
-                margin-left: 6%;
-              }
-      .linkterest
-              {
-                text-decoration: none;
-                target="_blank";
-              }
-
-    </style>
-
-
-
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #4CAF50;
+          color: white;
+        }
+        </style>
 </head>
 <body>
-    
-    <div class="container px-4">
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar con Bootstrap</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
-    </div>
-        <!-- Esto me tunie de getbootstrap.com  a cambiar
-         a cambiar -->  
-        
-    
-            <br>
-            <div class="container max-width:100%">
-            <h1 style="text-align: center;">My personal blog</h1>
-    
-
-
-            <div class="container px-4">
-              <div class="row gx-5">
-                <div class="col">
-                 <div class="p-3 border bg-light">
-                   
-                  
-              <h3>¿A qué te dedicás?</h3>
-                  <p class="answers">editor</p>       
-              <h3>¿Sabés algo de programación?</h3>
-                  <p class="answers">Practicamente nada</p>
-              <h3>¿Por qué querés aprender a programar?</h3>
-                  <p class="answers">Para resolver <strong><em>problemas</em></strong> y hacer las cosas más <u>simples</u></p>
-              <h3 style="color: tomato;">¿Cuáles son tus hobbies o intereses?</h3>
-                  <p class="answers">Ver videos en <b><em> <a class="linkterest" href="https://www.youtube.com/watch?v=yPYZpwSpKmA" target="new">YouTube.com</a>  </em></b></p>
-              <h3 style="color:blue;">¿Cuáles son tus páginas web favoritas?</h3>
-                  <p class="answers"><a class="linkterest" href="https://www.amazon.com/-/es/Sunil-Gulabani/dp/1788294459/" target="new">Amazon.com</a>, <a class="linkterest" href="https://articulo.mercadolibre.com.ar/MLA-830770784" target="_blank">MercadoLibre.com</a></p>
-                  <br>
-
-
-                  
-
-                  
-                  
-                 </div>
-                </div>
-                <div class="col">
-                  <div class="p-3 border bg-light"><h3> <a href="https://www.linkedin.com/in/ezequiel-domb/" target="new" rel="nonreferral" style="text-decoration: none;">My LinkedIn PROfile</a></h3></div>
-
-                  <!-- desde getboostrap.com, lista desordenada, sin numeracion -->  
-                  <ul class="list-group">
-                    <li class="list-group-item">Programas que utilizo en mi trabajo</li>
-                    <li class="list-group-item">InDesign</li>
-                    <li class="list-group-item">Acrobat</li>
-                    <li class="list-group-item">Illustrator</li>
-                    <li class="list-group-item">Photoshop</li>
-                  </ul>
-                  <br>
-                  <!-- lista ordenada con numeracion-->
-                  <ol>
-                    <li>Uno</li>
-                    <li>Dos</li>
-                    <li>Tres</li>
-                    <li>Cuatro</li>
-                  </ol>
-
-                  <!-- fin getboostrap.com--> 
-
-                </div>
-              </div>
-            </div>
-        
-        
-        
-        </div>
-    
-       
-    
-    </div>
-<br><br>
-    <footer class="container max-width:90% p-3 border bg-light">
-      <h6 style="text-align: center;">All right reserved</h6>
-
-    </footer>
-
-
-
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#about">About</a>
+      </div>
+      
+      <div style="padding-left:16px">
+        <h2>About us</h2>
+        <ul>
+          <li>lista</li>
+          <li>des</li>
+          <li>or</li>
+          <li>de</li>
+          <li>na</li>
+          <li>da</li>
+        </ul>
+        <br>
+        <ol>
+          <li>Lista</li>
+          <li>Nu</li>
+          <li>me</li>
+          <li>ra</li>
+          <li>da</li>
+        </ol>
+      </div>
+<!-- Si no llegaste a leer esto, es porque no llegaste-->    
 </body>
 </html>
